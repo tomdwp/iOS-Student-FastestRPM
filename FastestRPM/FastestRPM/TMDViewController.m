@@ -26,7 +26,11 @@
     
     self.needleImageView.image = [UIImage imageNamed:@"anotherNeedle.png"];
     
-    self.needleImageView.contentMode = UIViewContentModeScaleAspectFit;
+    self.speedometerImageView.contentMode = UIViewContentModeScaleAspectFit;
+    
+    self.needleImageView.contentMode = UIViewContentModeCenter;
+        
+    self.needleImageView.transform = CGAffineTransformMakeRotation( - 0.5 * 3.14 );
     
 }
 
@@ -35,5 +39,6 @@
     [super didReceiveMemoryWarning];
     // Dispose of any resources that can be recreated.
 }
+
 
 @end
