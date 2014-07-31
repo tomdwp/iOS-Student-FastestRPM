@@ -21,6 +21,7 @@
 		6376D91C198AC6EC00405622 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6376D8FE198AC6EC00405622 /* UIKit.framework */; };
 		6376D924198AC6EC00405622 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 6376D922198AC6EC00405622 /* InfoPlist.strings */; };
 		6376D926198AC6EC00405622 /* FastestRPMTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 6376D925198AC6EC00405622 /* FastestRPMTests.m */; };
+		6376D930198ACBA800405622 /* speedometer_needle.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 6376D92F198ACBA800405622 /* speedometer_needle.jpg */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -53,6 +54,7 @@
 		6376D921198AC6EC00405622 /* FastestRPMTests-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "FastestRPMTests-Info.plist"; sourceTree = "<group>"; };
 		6376D923198AC6EC00405622 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
 		6376D925198AC6EC00405622 /* FastestRPMTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = FastestRPMTests.m; sourceTree = "<group>"; };
+		6376D92F198ACBA800405622 /* speedometer_needle.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = speedometer_needle.jpg; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -112,6 +114,7 @@
 		6376D900198AC6EC00405622 /* FastestRPM */ = {
 			isa = PBXGroup;
 			children = (
+				6376D92F198ACBA800405622 /* speedometer_needle.jpg */,
 				6376D909198AC6EC00405622 /* TMDAppDelegate.h */,
 				6376D90A198AC6EC00405622 /* TMDAppDelegate.m */,
 				6376D90C198AC6EC00405622 /* Main.storyboard */,
@@ -231,6 +234,7 @@
 			files = (
 				6376D913198AC6EC00405622 /* Images.xcassets in Resources */,
 				6376D905198AC6EC00405622 /* InfoPlist.strings in Resources */,
+				6376D930198ACBA800405622 /* speedometer_needle.jpg in Resources */,
 				6376D90E198AC6EC00405622 /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
