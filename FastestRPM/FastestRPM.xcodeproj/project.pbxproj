@@ -22,6 +22,7 @@
 		6376D924198AC6EC00405622 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 6376D922198AC6EC00405622 /* InfoPlist.strings */; };
 		6376D926198AC6EC00405622 /* FastestRPMTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 6376D925198AC6EC00405622 /* FastestRPMTests.m */; };
 		6376D930198ACBA800405622 /* speedometer_needle.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 6376D92F198ACBA800405622 /* speedometer_needle.jpg */; };
+		6376D932198ACFF100405622 /* speedometer_without_needle.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 6376D931198ACFF100405622 /* speedometer_without_needle.jpg */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -55,6 +56,7 @@
 		6376D923198AC6EC00405622 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
 		6376D925198AC6EC00405622 /* FastestRPMTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = FastestRPMTests.m; sourceTree = "<group>"; };
 		6376D92F198ACBA800405622 /* speedometer_needle.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = speedometer_needle.jpg; sourceTree = "<group>"; };
+		6376D931198ACFF100405622 /* speedometer_without_needle.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = speedometer_without_needle.jpg; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -114,7 +116,6 @@
 		6376D900198AC6EC00405622 /* FastestRPM */ = {
 			isa = PBXGroup;
 			children = (
-				6376D92F198ACBA800405622 /* speedometer_needle.jpg */,
 				6376D909198AC6EC00405622 /* TMDAppDelegate.h */,
 				6376D90A198AC6EC00405622 /* TMDAppDelegate.m */,
 				6376D90C198AC6EC00405622 /* Main.storyboard */,
@@ -129,6 +130,8 @@
 		6376D901198AC6EC00405622 /* Supporting Files */ = {
 			isa = PBXGroup;
 			children = (
+				6376D931198ACFF100405622 /* speedometer_without_needle.jpg */,
+				6376D92F198ACBA800405622 /* speedometer_needle.jpg */,
 				6376D902198AC6EC00405622 /* FastestRPM-Info.plist */,
 				6376D903198AC6EC00405622 /* InfoPlist.strings */,
 				6376D906198AC6EC00405622 /* main.m */,
@@ -232,6 +235,7 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				6376D932198ACFF100405622 /* speedometer_without_needle.jpg in Resources */,
 				6376D913198AC6EC00405622 /* Images.xcassets in Resources */,
 				6376D905198AC6EC00405622 /* InfoPlist.strings in Resources */,
 				6376D930198ACBA800405622 /* speedometer_needle.jpg in Resources */,

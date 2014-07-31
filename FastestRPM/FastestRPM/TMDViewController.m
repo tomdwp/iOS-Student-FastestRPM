@@ -10,6 +10,8 @@
 
 @interface TMDViewController ()
 
+@property (weak, nonatomic) IBOutlet UIImageView *speedometerImageView;
+
 @end
 
 @implementation TMDViewController
@@ -18,6 +20,8 @@
 {
     [super viewDidLoad];
 	// Do any additional setup after loading the view, typically from a nib.
+    
+    self.speedometerImageView.image = [UIImage imageNamed:@"speedometer_without_needle.jpg"];
 }
 
 - (void)didReceiveMemoryWarning
