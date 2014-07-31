@@ -23,6 +23,7 @@
 		6376D926198AC6EC00405622 /* FastestRPMTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 6376D925198AC6EC00405622 /* FastestRPMTests.m */; };
 		6376D930198ACBA800405622 /* speedometer_needle.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 6376D92F198ACBA800405622 /* speedometer_needle.jpg */; };
 		6376D932198ACFF100405622 /* speedometer_without_needle.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 6376D931198ACFF100405622 /* speedometer_without_needle.jpg */; };
+		6376D934198AD88800405622 /* anotherNeedle.png in Resources */ = {isa = PBXBuildFile; fileRef = 6376D933198AD88800405622 /* anotherNeedle.png */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -57,6 +58,7 @@
 		6376D925198AC6EC00405622 /* FastestRPMTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = FastestRPMTests.m; sourceTree = "<group>"; };
 		6376D92F198ACBA800405622 /* speedometer_needle.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = speedometer_needle.jpg; sourceTree = "<group>"; };
 		6376D931198ACFF100405622 /* speedometer_without_needle.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = speedometer_without_needle.jpg; sourceTree = "<group>"; };
+		6376D933198AD88800405622 /* anotherNeedle.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = anotherNeedle.png; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -130,6 +132,7 @@
 		6376D901198AC6EC00405622 /* Supporting Files */ = {
 			isa = PBXGroup;
 			children = (
+				6376D933198AD88800405622 /* anotherNeedle.png */,
 				6376D931198ACFF100405622 /* speedometer_without_needle.jpg */,
 				6376D92F198ACBA800405622 /* speedometer_needle.jpg */,
 				6376D902198AC6EC00405622 /* FastestRPM-Info.plist */,
@@ -237,6 +240,7 @@
 			files = (
 				6376D932198ACFF100405622 /* speedometer_without_needle.jpg in Resources */,
 				6376D913198AC6EC00405622 /* Images.xcassets in Resources */,
+				6376D934198AD88800405622 /* anotherNeedle.png in Resources */,
 				6376D905198AC6EC00405622 /* InfoPlist.strings in Resources */,
 				6376D930198ACBA800405622 /* speedometer_needle.jpg in Resources */,
 				6376D90E198AC6EC00405622 /* Main.storyboard in Resources */,

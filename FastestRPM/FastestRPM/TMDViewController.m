@@ -24,7 +24,10 @@
     
     self.speedometerImageView.image = [UIImage imageNamed:@"speedometer_without_needle.jpg"];
     
-    self.needleImageView.image = [UIImage imageNamed:@"speedometer_needle.jpg"];
+    self.needleImageView.image = [UIImage imageNamed:@"anotherNeedle.png"];
+    
+    self.needleImageView.contentMode = UIViewContentModeScaleAspectFit;
+    
 }
 
 - (void)didReceiveMemoryWarning
