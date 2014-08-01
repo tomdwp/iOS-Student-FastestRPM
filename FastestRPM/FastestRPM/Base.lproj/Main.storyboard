@@ -19,21 +19,33 @@
                             <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="6x8-1t-IAE" userLabel="Speedometer Image View">
                                 <rect key="frame" x="0.0" y="29" width="320" height="449"/>
                                 <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                                <gestureRecognizers/>
                             </imageView>
                             <imageView opaque="NO" userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="ffD-z2-Vrk" userLabel="Needle Image View">
                                 <rect key="frame" x="0.0" y="81" width="320" height="359"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                 <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="calibratedWhite"/>
+                                <gestureRecognizers/>
                             </imageView>
                         </subviews>
                         <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="calibratedWhite"/>
+                        <gestureRecognizers/>
+                        <connections>
+                            <outletCollection property="gestureRecognizers" destination="7cV-Vx-N2Z" appends="YES" id="PgW-cI-uMn"/>
+                        </connections>
                     </view>
                     <connections>
                         <outlet property="needleImageView" destination="ffD-z2-Vrk" id="T8e-sQ-c99"/>
+                        <outlet property="panGestureRecognizer" destination="7cV-Vx-N2Z" id="MFE-du-G5G"/>
                         <outlet property="speedometerImageView" destination="6x8-1t-IAE" id="2hQ-Eb-8E2"/>
                     </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="x5A-6p-PRh" sceneMemberID="firstResponder"/>
+                <panGestureRecognizer minimumNumberOfTouches="1" maximumNumberOfTouches="1" id="7cV-Vx-N2Z">
+                    <connections>
+                        <action selector="handleGesture:" destination="vXZ-lx-hvc" id="lVj-Va-mg4"/>
+                    </connections>
+                </panGestureRecognizer>
             </objects>
         </scene>
     </scenes>

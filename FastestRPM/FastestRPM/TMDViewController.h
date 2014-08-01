@@ -8,6 +8,8 @@
 
 #import <UIKit/UIKit.h>
 
-@interface TMDViewController : UIViewController
+@interface TMDViewController : UIViewController <UIGestureRecognizerDelegate>
+
+- (IBAction)handleGesture:(UIPanGestureRecognizer *)gestureRecognizer;
 
 @end
